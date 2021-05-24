@@ -3,3 +3,23 @@
   background: rgb(44, 48, 51);
   color: white;
 }
+
+#projects {
+  background: url('https://thumbs.dreamstime.com/b/blue-bokeh-computer-code-background-job-offer-blue-bokeh-computer-code-background-job-offer-coding-code-learning-180554511.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.project-tile {
+  box-shadow: 5px 5px 10px black;
+}
+
+.project-tile:hover {
+  box-shadow: none;
+}
+
+.card {
+  width: 20rem;
+}
