@@ -1,7 +1,13 @@
+body > *, a, a:hover, .form-control, .form-control:focus, .form-control::placeholder {
+  color: white;
+}
+
+#welcome-section, #contact-section, footer {
+  background: rgb(44, 48, 51);
+}
+
 #welcome-section {
   height: 100vh;
-  background: rgb(44, 48, 51);
-  color: white;
 }
 
 #projects {
@@ -9,7 +15,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
 }
 
 .project-tile {
@@ -21,5 +26,13 @@
 }
 
 .card {
-  width: 20rem;
+  width: 325px;
+}
+
+form, #icons-container {
+  width: 600px;
+}
+
+.form-control, .form-control:focus {
+  background: transparent;
 }
