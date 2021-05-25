@@ -2,10 +2,28 @@ body > *, a, a:hover, .form-control, .form-control:focus, .form-control::placeho
   color: white;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+h2 {
+  padding: calc(1rem * 3);
+  text-align: center;
+}
+
 .navbar {
+  padding: 1rem;
   box-shadow: 5px 5px 5px black;
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 calc(1rem * 1.5);
 }
 
 #welcome-section, #contact-section, footer {
@@ -17,10 +35,15 @@ body > *, a, a:hover, .form-control, .form-control:focus, .form-control::placeho
 }
 
 #projects {
+  padding: 1rem;
   background: url('https://thumbs.dreamstime.com/b/blue-bokeh-computer-code-background-job-offer-blue-bokeh-computer-code-background-job-offer-coding-code-learning-180554511.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#contact-section {
+  padding: 1rem 1rem 0;
 }
 
 .project-tile {
@@ -32,13 +55,21 @@ body > *, a, a:hover, .form-control, .form-control:focus, .form-control::placeho
 }
 
 .card {
-  width: 325px;
+  width: 20rem;
 }
 
 form, #icons-container {
-  width: 600px;
+  width: 40rem;
 }
 
 .form-control, .form-control:focus {
   background: transparent;
+}
+
+.icon {
+  padding: 1rem;
+}
+
+footer {
+  padding: 0 1rem 1rem;
 }
