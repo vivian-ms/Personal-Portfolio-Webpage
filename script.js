@@ -109,5 +109,9 @@ const createProjectTiles = num => {
 
 
 $(function() {
+  $(window).on('click', evt => {
+    $('#collapsable_navbar').collapse('hide');
+  });
+  
   createProjectTiles(6);
 });  // End $ready()
