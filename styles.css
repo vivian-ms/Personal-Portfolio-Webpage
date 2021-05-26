@@ -32,6 +32,15 @@ h2 {
 
 #welcome-section {
   height: 100vh;
+  color: rgb(249, 132, 239);
+}
+
+#welcome-section * {
+  display: none;
+}
+
+#welcome-section p {
+  font-size: 1.5rem;
 }
 
 #projects {
