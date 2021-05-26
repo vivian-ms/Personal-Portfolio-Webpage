@@ -112,6 +112,12 @@ $(function() {
   $(window).on('click', evt => {
     $('#collapsable_navbar').collapse('hide');
   });
-  
+
+  $('#welcome-section h1').fadeIn(2000, () => {
+    $('#welcome-section h1').fadeOut(1000, () => {
+      $('#welcome-section h3, #welcome-section p').fadeIn(1000);
+    });
+  });
+
   createProjectTiles(6);
 });  // End $ready()
